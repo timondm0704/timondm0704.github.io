@@ -25,11 +25,11 @@ Differences between people in traits like body weight, blood sugar, and liver fa
 The project is a collaboration between Northeastern University, the MaineHealth Institute for Research, and the Van Andel Institute, funded by an NIH Transformative Research Award. It compares the two parent strains, C57BL/6J and A/J, with 22 chromosome substitution strains (CSSs). Each CSS is a B6 mouse carrying one chromosome from A/J. Mice were fed a high-fat, high-sugar diet or a control diet, and metabolic traits were measured over time, including body weight, glucose, insulin, cholesterol, and liver triglycerides etc.
 
 To detect where and how strongly genetic background, diet, and sex change trait averages and variability, I implemented the analysis and visualizations in R: <br>
-  . Permutation tests on mean ratios and median absolute deviation (MAD) ratios to detect mean and variance effects of strain, diet, and sex, summarized in heatmaps across the full CSS panel
-  . Paired within-mouse permutation tests to track changes over time
-  . Phenotypic effect calculations for each CSS relative to the two parent strains, with additivity tests using bootstrap confidence intervals
-  . Parallel coordinates plots of each mouse’s metabolic profile
-  . Spearman correlation networks showing how traits move together
+  . Permutation tests on mean ratios and median absolute deviation (MAD) ratios to detect mean and variance effects of strain, diet, and sex, summarized in heatmaps across the full CSS panel<br>
+  . Paired within-mouse permutation tests to track changes over time<br>
+  . Phenotypic effect calculations for each CSS relative to the two parent strains, with additivity tests using bootstrap confidence intervals<br>
+  . Parallel coordinates plots of each mouse’s metabolic profile<br>
+  . Spearman correlation networks showing how traits move together<br>
 
 By treating variability as a measurable trait in its own right, this study provides a framework for identifying genomic regions that control how much individuals differ in metabolic disease risk. Understanding these regulators could help explain why disease severity varies so widely and support more personalized approaches to prevention and treatment.
 
