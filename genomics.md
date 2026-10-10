@@ -32,10 +32,11 @@ I run a genome-wide association study (GWAS) in the Atenolol for the Prevention 
 
 ---
 
-### Gene-by-Environment Effects in CSS Mice
-*Collaborative project · 22 strains × 2 diets*
+### Variance Heterogeneity in Metabolic Traits: A Chromosome Substitution Strain (CSS) Mouse Study
+*Mouse genetics study · Funded by NIH Transformative Research Award · Permutation-based statistics*
 
-Identifying genetic variants that control variance in metabolic traits, using chromosome substitution strains fed high-fat high-sugar vs. control diets.
+Why do genetically identical mice on the same diet end up so different? <br>
+As part of a multi-institution research team, I implement the statistical methods and visualizations for a study of genetically defined mice. The study asks which parts of the genome control not only the average value of a metabolic trait but also how much it varies between individuals. My work tests both mean and variance effects across strains, diets, sexes, and a full panel of chromosome substitution strains mice.
 
 <!-- Add thumbnail when ready: ![CSS mice study design]({{ "/images/css-thumb.png" | relative_url }}) -->
 
