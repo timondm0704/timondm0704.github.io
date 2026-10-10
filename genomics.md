@@ -38,7 +38,7 @@ I run a genome-wide association study (GWAS) in the Atenolol for the Prevention 
 Why do genetically identical mice on the same diet end up so different? <br>
 As part of a multi-institution research team, I implement the statistical methods and visualizations for a study of genetically defined mice. The study asks which parts of the genome control not only the average value of a metabolic trait but also how much it varies between individuals. My work tests both mean and variance effects across strains, diets, sexes, and a full panel of chromosome substitution strains mice.
 
-<!-- Add thumbnail when ready: ![CSS mice study design]({{ "/images/css-thumb.png" | relative_url }}) -->
+![CSS_panel]({{ "/images/CSS_panel.png" | relative_url }})
 
 [Read more →]({{ "/projects/css-mice.html" | relative_url }})
 
