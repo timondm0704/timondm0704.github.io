@@ -1,49 +1,59 @@
 ---
 layout: default
-title: "Gene-by-Environment Effects in CSS Mice"
+title: "Variance Heterogeneity in Metabolic Traits: A Chromosome Substitution Strain (CSS) Mouse Study"
 section: Genomic Research
 ---
 
 [← Back to Genomic Research]({{ "/genomics/" | relative_url }})
 
-## Gene-by-Environment Effects in CSS Mice
-*Collaborative project · 22 strains × 2 diets*
-
-> Figures on this page use simulated or public data to demonstrate methods. Results from the underlying study will be added after publication.
-
----
-
-### Overview
-
-[EDIT] Chromosome substitution strains (CSS) are mice in which one whole chromosome comes from a different donor strain, making it possible to map genetic effects to a specific chromosome. In this project, we study how genetics and diet together shape metabolic traits across 22 CSS strains fed either a high-fat high-sugar diet or a control diet, focusing on variants that control trait variance rather than just the average. My role includes [describe: data cleaning, modeling diet × strain interactions, variance modeling, visualization].
-
----
-
-### Figures
-
-*Figures coming soon.*
-
-<!-- FIGURES HIDDEN: after uploading images, delete "Figures coming soon", this line, and the "end" line below.
-
-![Study design: 22 strains × 2 diets]({{ "/images/css-1.png" | relative_url }})
-<br><small><em>Study design: 22 strains × 2 diets</em></small>
-
-![Concept: how a substituted chromosome reveals effects on trait variance]({{ "/images/css-2.png" | relative_url }})
-<br><small><em>Concept: how a substituted chromosome reveals effects on trait variance</em></small>
-
-![Demonstration of strain × diet variance modeling on simulated data]({{ "/images/css-3.png" | relative_url }})
-<br><small><em>Demonstration of strain × diet variance modeling on simulated data</em></small>
-
-end -->
+## Variance Heterogeneity in Metabolic Traits: A Chromosome Substitution Strain (CSS)  Mouse Study
+*Parent-of-Origin Effects (POE) · Framingham Heart Study (FHS) · Obesity · mQTL/vQTL/eQTL*
 
 ---
 
 ### Skills Demonstrated
 
-Experimental design analysis · Gene-by-environment modeling · Variance modeling · R
+R · Permutation testing · Nonparametric statistics · Bootstrap resampling · FDR correction · Data visualization · Correlation networks
+
+---
+
+
+### Overview
+
+Differences between people in traits like body weight, blood sugar, and liver fat are usually explained by genes, environment, and their interactions. Yet even genetically identical animals raised under the same conditions can differ dramatically. This points to a neglected dimension of variation. Most genetic studies look only for variants that shift a trait’s average (mean QTLs, or mQTLs). Some genomic regions instead change how widely a trait is spread across individuals (variance QTLs, or vQTLs). This pattern is called variance heterogeneity, and standard analyses usually dismiss it as noise.
+
+The project is a collaboration between Northeastern University, the MaineHealth Institute for Research, and the Van Andel Institute, funded by an NIH Transformative Research Award. It compares the two parent strains, C57BL/6J and A/J, with 22 chromosome substitution strains (CSSs). Each CSS is a B6 mouse carrying one chromosome from A/J. Mice were fed a high-fat, high-sugar diet or a control diet, and metabolic traits were measured over time, including body weight, glucose, insulin, cholesterol, and liver triglycerides etc.
+
+To detect where and how strongly genetic background, diet, and sex change trait averages and variability, I implemented the analysis and visualizations in R:
+  . Permutation tests on mean ratios and median absolute deviation (MAD) ratios to detect mean and variance effects of strain, diet, and sex, summarized in heatmaps across the full CSS panel
+  . Paired within-mouse permutation tests to track changes over time
+  . Phenotypic effect calculations for each CSS relative to the two parent strains, with additivity tests using bootstrap confidence intervals
+  . Parallel coordinates plots of each mouse’s metabolic profile
+  . Spearman correlation networks showing how traits move together
+
+By treating variability as a measurable trait in its own right, this study provides a framework for identifying genomic regions that control how much individuals differ in metabolic disease risk. Understanding these regulators could help explain why disease severity varies so widely and support more personalized approaches to prevention and treatment.
+
+---
+
+### Figures
+
+
+![CSS_parallel_coordinates]({{ "/images/CSS_parallel_coordinates.png" | relative_url }})
+<br><small><em>Figure 1. Parallel coordinates plot of 13 metabolic traits in C57BL/6J and A/J mice on HFHS and control diets</em></small>
+
+![CSS_correlation_network]({{ "/images/CSS_correlation_network.png" | relative_url }})
+<br><small><em>Figure 2. Spearman correlation networks of 13 metabolic traits for each strain and diet combination.</em></small>
+
+![CSS_mean_variance]({{ "/images/CSS_mean_variance.png" | relative_url }})
+<br><small><em>Figure 3. Mean and variance effects for 22 chromosome substitution strains compared with C57BL/6J across 13 metabolic traits.</em></small>
+
+
+
+---
+
+
 
 ---
 
 [← Back to Genomic Research]({{ "/genomics/" | relative_url }})
 
-<!-- After publication: add the paper link here, and replace demo figures with real results. -->
