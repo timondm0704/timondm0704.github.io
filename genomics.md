@@ -9,7 +9,10 @@ permalink: /genomics/
 > Results from these studies will be added after publication. Any demo figures use simulated or public data and are labeled as such.
 
 ### Parent-of-Origin Effects on Obesity
-*First-author project · Framingham Heart Study*
+*Parent-of-Origin Effects (POE) · Framingham Heart Study (FHS) · Obesity · mQTL/vQTL/eQTL*
+
+### Skills Demonstrated
+R · Visualization · Statistical genetics · QTL analysis (mQTL, vQTL, eQTL) · Parent-of-origin analysis · Variance heterogeneity testing · Genotype QC and imputation filtering · LD and haplotype block analysis (PLINK) · Multi-omics integration (GTEx) · Large cohort data (FHS)
 
 Does it matter which parent you inherited a gene variant from?<br>
 I study whether variants in FTO, a well-established obesity-associated gene, affect obesity differently depending on parental origin, using data from the Framingham Heart Study (FHS).
@@ -45,7 +48,7 @@ As part of a multi-institution research team, I implement the statistical method
 ---
 
 ### BifurcatoR: Detecting Variance Heterogeneity
-*Contributor · Manuscript in preparation*
+*Variance Heterogeneity · Bimodality · Statistical Power · Simulation Study*
 
 Why do patients with the same diagnosis respond so differently to the same treatment, and which statistical tests can reliably find the hidden subgroups behind that difference?<br>
 I implemented a large-scale simulation study benchmarking 17 statistical methods for detecting variance differences and bimodality across thousands of data scenarios. The results became the evidence-based guidance behind BifucatoR, an open-source R package and web app that helps researchers find clinically meaningful patient subgroups.
