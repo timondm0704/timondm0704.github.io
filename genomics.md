@@ -6,13 +6,8 @@ permalink: /genomics/
 
 ## Genomic Research
 
-> Results from these studies will be added after publication. Any demo figures use simulated or public data and are labeled as such.
-
 ### Parent-of-Origin Effects on Obesity
 *Parent-of-Origin Effects (POE) · Framingham Heart Study (FHS) · Obesity · mQTL/vQTL/eQTL*
-
-#### Skills Demonstrated
-R · Visualization · Statistical genetics · QTL analysis (mQTL, vQTL, eQTL) · Parent-of-origin analysis · Variance heterogeneity testing · Genotype QC and imputation filtering · LD and haplotype block analysis (PLINK) · Multi-omics integration (GTEx) · Large cohort data (FHS)
 
 Does it matter which parent you inherited a gene variant from?<br>
 I study whether variants in FTO, a well-established obesity-associated gene, affect obesity differently depending on parental origin, using data from the Framingham Heart Study (FHS).
@@ -24,7 +19,7 @@ I study whether variants in FTO, a well-established obesity-associated gene, aff
 ---
 
 ### Pharmacogenetic GWAS of Bone Mineral Density
-*Multi-site randomized controlled clinical trial · HPC pipeline*
+*Multi-site randomized controlled clinical trial · HPC pipeline · Gene-Treatment Interaction · Osteoporosis · Bone Mineral Density · Statistical Genetics*
 
 Can your genes predict how your bone respond to a medication? <br>
 I run a genome-wide association study (GWAS) in the Atenolol for the Prevention of Osteoporosis (APO) trial, a multi-site randomized clinical trial of atenolol (a beta-blocker) versus placebo, to identify genetic variants that change how treatment affects bone mineral density over time.
