@@ -41,7 +41,7 @@ I'm organized and comfortable managing several projects at once, and I enjoy ste
 
 ---
 
-[Download my resume (PDF)]({{ "/assets/Mao_Ding_Resume.pdf" | relative_url }})
+[Download my resume (PDF)]({{ "/assets/Resume_MAO_DING_2026_v3.pdf" | relative_url }})
 
 ### Contact
 
