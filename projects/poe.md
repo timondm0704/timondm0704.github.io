@@ -13,6 +13,8 @@ section: Genomic Research
 
 R · Visualization · Statistical Genetics · QTL Analysis (mQTL, vQTL, eQTL) · Parent-of-origin Analysis  · Genotype QC and Imputation Filtering · LD and Haplotype Block Analysis (PLINK) · Multi-omics Integration (GTEx) · Large Cohort Data (FHS)
 
+---
+
 ### Overview
 
 The FTO gene is the most significant and widely replicated obesity finding from genome-wide association studies (GWAS). Its obesity-associated variants sit in non-coding regions (introns 1–3) and act as regulators, changing the expression of the neighboring genes IRX3 and IRX5 and shifting how fat cells store or burn energy. Earlier studies in humans and mice suggest that some of these effects depend on parental origin, known as parent-of-origin effects (POE): a variant inherited from the mother can act differently than the same variant inherited from the father. However, previous work examined only a handful of variants, focused almost entirely on BMI, was rarely replicated across cohorts, and only evaluated whether variants shift the mean. Variance effects, which describe the spread of a trait's distribution, remain understudied, yet they are important for understanding why people with the same variant can have different outcomes.
