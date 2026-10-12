@@ -11,27 +11,25 @@ My path has crossed continents and disciplines. After earning a bachelor's degre
 
 I'm organized and comfortable managing several projects at once, and I enjoy stepping into new fields and learning what they need.
 
-[See my genomic research →]({{ "/genomics/" | relative_url }}) · [Download my resume (PDF)]({{ "/assets/Mao_Ding_Resume.pdf" | relative_url }})
-
 ---
 
 ### Highlights
 
-- **Genome-wide analysis at scale:** built a GWAS pipeline on an HPC cluster to test gene-by-treatment interactions in a multi-site randomized controlled trial, processing hundreds of millions of variants with PLINK and REGENIE.
-- **Statistical genetics research:** lead a study of parent-of-origin effects at the FTO obesity locus using Framingham Heart Study data, integrating mean, variance, and gene expression analyses.
-- **Open-source methods:** contributed the simulation study behind BifurcatoR, an R package and Shiny app for detecting variance heterogeneity.
-- **11 years of large-scale data work:** managed smart meter data for over 2 million customers and led line loss analysis across 2,000+ power supply areas and 52 substations.
+**Genome-wide analysis at scale:** built a GWAS pipeline on an HPC cluster to test gene-by-treatment interactions in a multi-site randomized controlled trial, processing hundreds of millions of variants with PLINK and REGENIE.
+**Statistical genetics research:** lead a study of parent-of-origin effects at the FTO obesity locus using Framingham Heart Study data, integrating mean, variance, and gene expression analyses.
+**Open-source methods:** contributed the simulation study behind BifurcatoR, an R package and Shiny app for detecting variance heterogeneity.
+**11 years of large-scale data work:** managed smart meter data for over 2 million customers and led line loss analysis across 2,000+ power supply areas and 52 substations.
 
 
 ---
 
 ### Skills
 
-**Bioinformatics & Genomics:** GWAS analysis, gene-by-treatment interaction, mQTL/vQTL/eQTL, parent-of-origin analysis, PLINK, REGENIE, LD pruning and clumping, GTEx, UCSC Genome Browser, genomic file processing (FASTA/FASTQ, BAM, VCF)<br>
-**Statistical Analysis:** regression models, hypothesis testing, permutation testing, bootstrap resampling, statistical simulation, mixture models, variance heterogeneity testing<br>
-**Programming Languages:** R (dplyr, tidyverse, ggplot2, R Markdown, Shiny), Python (Pandas, NumPy, Matplotlib, Scikit-learn), SQL, Java<br>
-**Data Science & Machine Learning:** ETL data pipelines, big data analytics, PySpark, TensorFlow, PyTorch, neural networks, NLP<br>
-**Infrastructure & Tools:** Linux/Bash, high-performance computing (HPC/SLURM), Git/GitHub, Google Cloud Platform, JMP Pro
+<strong>Bioinformatics & Genomics:</strong> GWAS analysis, gene-by-treatment interaction, mQTL/vQTL/eQTL, parent-of-origin analysis, PLINK, REGENIE, LD pruning and clumping, GTEx, UCSC Genome Browser, genomic file processing (FASTA/FASTQ, BAM, VCF)<br>
+<strong>Statistical Analysis:</strong> regression models, hypothesis testing, permutation testing, bootstrap resampling, statistical simulation, mixture models, variance heterogeneity testing<br>
+<strong>Programming Languages:</strong> R (dplyr, tidyverse, ggplot2, R Markdown, Shiny), Python (Pandas, NumPy, Matplotlib, Scikit-learn), SQL, Java<br>
+<strong>Data Science & Machine Learning:</strong> ETL data pipelines, big data analytics, PySpark, TensorFlow, PyTorch, neural networks, NLP<br>
+<strong>Infrastructure & Tools:</strong> Linux/Bash, high-performance computing (HPC/SLURM), Git/GitHub, Google Cloud Platform, JMP Pro
 ---
 
 ### Education
@@ -42,6 +40,8 @@ I'm organized and comfortable managing several projects at once, and I enjoy ste
 **BS in Geographic Information Systems**, Suzhou University of Science and Technology, China
 
 ---
+
+[Download my resume (PDF)]({{ "/assets/Mao_Ding_Resume.pdf" | relative_url }})
 
 ### Contact
 
