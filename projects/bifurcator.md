@@ -7,12 +7,11 @@ section: Genomic Research
 [← Back to Genomic Research]({{ "/genomics/" | relative_url }})
 
 ## BifurcatoR: Detecting Variance Heterogeneity
-*Variance Heterogeneity · Phenotypic Noise · Variability*
 
 
 ### Skills Demonstrated
 
-Simulation Study Design · Statistical Power and False Positive Rate Analysis · Mean/Variance/Bimodality Tests · Mixture Models · High-Performance Computing · R · Data Visualization
+*Simulation Study · Statistical Power and False Positive Rate Analysis · Mean/Variance/Bimodality Tests · Mixture Models · High-Performance Computing · R · Data Visualization*
 
 ---
 
