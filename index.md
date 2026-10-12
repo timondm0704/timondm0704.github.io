@@ -15,9 +15,9 @@ I'm organized and comfortable managing several projects at once, and I enjoy ste
 
 ### Highlights
 
-**Genome-wide analysis (GWAS):** built a GWAS pipeline on an HPC cluster to test gene-by-treatment interactions in a multi-site randomized controlled trial, processing hundreds of millions of variants with PLINK and REGENIE.
-**Statistical genetics research:** lead a study of parent-of-origin effects at the FTO obesity locus using Framingham Heart Study data, integrating mean, variance, and gene expression analyses.
-**Statistical method evaluation:** contributed the simulation study behind BifurcatoR, an R package and Shiny app for detecting variance heterogeneity.
+**Genome-wide analysis (GWAS):** built a GWAS pipeline on an HPC cluster to test gene-by-treatment interactions in a multi-site randomized controlled trial, processing hundreds of millions of variants with PLINK and REGENIE.<br>
+**Statistical genetics research:** lead a study of parent-of-origin effects at the FTO obesity locus using Framingham Heart Study data, integrating mean, variance, and gene expression analyses.<br>
+**Statistical method evaluation:** contributed the simulation study behind BifurcatoR, an R package and Shiny app for detecting variance heterogeneity.<br>
 **11 years of large-scale data work:** managed smart meter data for over 2 million customers and led line loss analysis across 2,000+ power supply areas and 52 substations.
 
 ---
