@@ -7,9 +7,6 @@ section: Genomic Research
 [← Back to Genomic Research]({{ "/genomics/" | relative_url }})
 
 ## Pharmacogenetic GWAS of Bone Mineral Density
-*Gene-Treatment Interaction · Osteoporosis · Randomized Controlled Trial · Bone Mineral Density · Statistical Genetics*
-
----
 
 ### Skills Demonstrated
 
