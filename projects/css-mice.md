@@ -8,9 +8,10 @@ section: Genomic Research
 
 ## Variance Heterogeneity in Metabolic Traits: A Chromosome Substitution Strain (CSS)  Mouse Study
 
+
 ### Skills Demonstrated
 
-R · Permutation testing · Nonparametric statistics · Bootstrap resampling · FDR correction · Data visualization · Correlation networks
+*R · Permutation Testing · Nonparametric Statistics · Bootstrap Resampling · FDR Correction · Data Visualization · Correlation Networks*
 
 ---
 
