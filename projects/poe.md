@@ -8,6 +8,8 @@ section: Genomic Research
 
 ## Parent-of-Origin Effects on Obesity
 
+### Skills Demonstrated
+R · Visualization · Statistical Genetics · QTL Analysis (mQTL, vQTL, eQTL) · Parent-of-origin Analysis  · Genotype QC and Imputation Filtering · LD and Haplotype Block Analysis (PLINK) · Multi-omics Integration (GTEx) · Large Cohort Data (FHS)
 
 ### Overview
 
