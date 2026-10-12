@@ -11,7 +11,7 @@ permalink: /genomics/
 ### Parent-of-Origin Effects on Obesity
 *Parent-of-Origin Effects (POE) · Framingham Heart Study (FHS) · Obesity · mQTL/vQTL/eQTL*
 
-### Skills Demonstrated
+#### Skills Demonstrated
 R · Visualization · Statistical genetics · QTL analysis (mQTL, vQTL, eQTL) · Parent-of-origin analysis · Variance heterogeneity testing · Genotype QC and imputation filtering · LD and haplotype block analysis (PLINK) · Multi-omics integration (GTEx) · Large cohort data (FHS)
 
 Does it matter which parent you inherited a gene variant from?<br>
