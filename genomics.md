@@ -51,7 +51,7 @@ Why do patients with the same diagnosis respond so differently to the same treat
 I implemented a large-scale simulation study benchmarking 17 statistical methods for detecting variance differences and bimodality across thousands of data scenarios. The results became the evidence-based guidance behind BifucatoR, an open-source R package and web app that helps researchers find clinically meaningful patient subgroups.
 
 
-<!-- Add thumbnail when ready: ![Variance heterogeneity illustration]({{ "/images/bifurcator-thumb.png" | relative_url }}) -->
+![bifurcator_simulation_scenarios]({{ "/images/bifurcator_simulation_scenarios.png" | relative_url }})
 
 [Read more →]({{ "/projects/bifurcator.html" | relative_url }})
 
