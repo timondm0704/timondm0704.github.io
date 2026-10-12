@@ -7,12 +7,12 @@ section: Genomic Research
 [← Back to Genomic Research]({{ "/genomics/" | relative_url }})
 
 ## BifurcatoR: Detecting Variance Heterogeneity
-*Contributor · Manuscript in preparation*
+*Variance Heterogeneity · Phenotypic Noise · Variability*
 
 
 ### Skills Demonstrated
 
-Simulation study design · Statistical method comparison · R and Shiny · Data visualization
+Simulation Study Design · Statistical Power and False Positive Rate Analysis · Mean/Variance/Bimodality Tests · Mixture Models · High-Performance Computing · R · Data Visualization
 
 ---
 
@@ -31,7 +31,7 @@ When applied to real data, BifurcatoR found two hidden groups of patients among 
 ### Figures
 
 <iframe src="https://rstudio-pubs-static.s3.amazonaws.com/1149896_41dda4119cf9454096514ad35d6945d2.html"
-        width="100%" height="700" style="border: 1px solid #ddd; border-radius: 8px;"
+        width="100%" style="height: 90vh; border: 1px solid #ddd; border-radius: 8px;"
         loading="lazy" title="BifurcatoR simulation study"></iframe>
 <br><small><em>Figure 1. Interactive visualization of the BifurcatoR simulation study. <a href="https://rpubs.com/mding_mhir/add_LNmixR" target="_blank">Open full report on RPubs ↗</a></em></small>
 
