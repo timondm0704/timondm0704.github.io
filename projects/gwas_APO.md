@@ -8,6 +8,7 @@ section: Genomic Research
 
 ## Pharmacogenetic GWAS of Bone Mineral Density
 
+
 ### Skills Demonstrated
 
 *REGENIE · PLINK · Linkage Disequilibrium (LD) · LocusZoom Plot· Manhattan Plot · R · Bash · SLURM · High-Performance Computing (HPC)*
