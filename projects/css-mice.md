@@ -7,9 +7,6 @@ section: Genomic Research
 [← Back to Genomic Research]({{ "/genomics/" | relative_url }})
 
 ## Variance Heterogeneity in Metabolic Traits: A Chromosome Substitution Strain (CSS)  Mouse Study
-*Parent-of-Origin Effects (POE) · Framingham Heart Study (FHS) · Obesity · mQTL/vQTL/eQTL*
-
----
 
 ### Skills Demonstrated
 
