@@ -7,15 +7,7 @@ section: Genomic Research
 [← Back to Genomic Research]({{ "/genomics/" | relative_url }})
 
 ## Parent-of-Origin Effects on Obesity
-*Parent-of-Origin Effects (POE) · Framingham Heart Study (FHS) · Obesity · mQTL/vQTL/eQTL*
 
----
-
-### Skills Demonstrated
-
-R · Visualization · Statistical genetics · QTL analysis (mQTL, vQTL, eQTL) · Parent-of-origin analysis · Variance heterogeneity testing · Genotype QC and imputation filtering · LD and haplotype block analysis (PLINK) · Multi-omics integration (GTEx) · Large cohort data (FHS)
-
----
 
 ### Overview
 
