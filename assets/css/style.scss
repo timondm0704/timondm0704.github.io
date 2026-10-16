@@ -1,0 +1,15 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Wider layout on desktop screens */
+@media screen and (min-width: 961px) {
+  .wrapper {
+    width: 90%;
+    max-width: 1200px;
+  }
+  section {
+    width: calc(100% - 320px);
+  }
+}
