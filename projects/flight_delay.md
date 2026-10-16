@@ -9,8 +9,6 @@ description: "PySpark and Spark MLlib classification of departure delays across 
 
 ## Flight Delay Prediction: Is Bad Weather Really to Blame?
 
-*MS Applied Data Analytics, Boston University (2022) · Term project, MET CS 777 Big Data Analytics*
-
 ### Skills Demonstrated
 
 *PySpark · Spark SQL · Spark MLlib Pipelines · Logistic Regression · Linear SVM · Decision Tree · One-Hot Encoding · Feature Selection · Cross-Validation · Hyperparameter Tuning · Model Evaluation (F1, AUC)*
