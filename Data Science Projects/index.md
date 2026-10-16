@@ -7,4 +7,4 @@ I built an end-to-end PySpark pipeline on 4.5 million U.S. flights, comparing lo
 
 ![Flight delay concept]({{ "/images/flight_delay_concept.png" | relative_url }})
 
-[Read more →](https://timondm0704.github.io/projects/flight_delay.html)
+[Read more →]({{ "/projects/flight_delay.html" | relative_url }})
