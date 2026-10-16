@@ -45,7 +45,7 @@ As part of a multi-institution research team, I implement the statistical method
 *Variance Heterogeneity · Bimodality · Statistical Power · Simulation Study · Phenotypic Noise · Variability*
 
 Why do patients with the same diagnosis respond so differently to the same treatment, and which statistical tests can reliably find the hidden subgroups behind that difference?<br>
-I implemented a large-scale simulation study benchmarking 17 statistical methods for detecting variance differences and bimodality across thousands of data scenarios. The results became the evidence-based guidance behind BifucatoR, an open-source R package and web app that helps researchers find clinically meaningful patient subgroups.
+I implemented a large-scale simulation study benchmarking 17 statistical methods for detecting variance differences and bimodality across thousands of data scenarios. The results became the evidence-based guidance behind BifurcatoR, an open-source R package and web app that helps researchers find clinically meaningful patient subgroups.
 
 
 ![bifurcator_simulation_scenarios]({{ "/images/bifurcator_simulation_scenarios.png" | relative_url }})
