@@ -1,10 +1,11 @@
 ---
 layout: default
 title: "Flight Delay Prediction: Is Bad Weather Really to Blame?"
+section: Data Science Projects
 description: "PySpark and Spark MLlib classification of departure delays across 4.5 million U.S. flights, comparing weather and operational factors."
 ---
 
-[← Back to Data Science Projects](https://timondm0704.github.io/Data%20Science%20Projects/)
+[← Back to Data Science Projects]({{ "/Data%20Science%20Projects/" | relative_url }})
 
 ## Flight Delay Prediction: Is Bad Weather Really to Blame?
 
@@ -30,15 +31,19 @@ Weather-only models were no more predictive than models built on operational fac
 
 ### Figures
 
-![Departure delays by month](https://timondm0704.github.io/images/flights_delay_by_month.png)  
-*Figure 1. Number of delayed departures by month in 2019. Summer months had the most delays.*
+![Departure delays by month]({{ "/images/flights_delay_by_month.png" | relative_url }})
+<br><small><em>Figure 1. Number of delayed departures by month in 2019. Summer months had the most delays.</em></small>
 
-![Flight outcomes on extreme weather days](https://timondm0704.github.io/images/flights_extreme_weather.png)  
-*Figure 2. Delayed and on-time departures on the days with the maximum precipitation, snowfall, snow depth, and wind speed.*
+<br>
 
-![Model comparison](https://timondm0704.github.io/images/flights_model_results.png)  
-*Figure 3. F1 score, AUC, and accuracy for logistic regression, SVM, and decision tree models across feature sets.*
+![Flight outcomes on extreme weather days]({{ "/images/flights_extreme_weather.png" | relative_url }})
+<br><small><em>Figure 2. Delayed and on-time departures on the days with the maximum precipitation, snowfall, snow depth, and wind speed.</em></small>
+
+<br>
+
+![Model comparison]({{ "/images/flights_model_results.png" | relative_url }})
+<br><small><em>Figure 3. F1 score, AUC, and accuracy for logistic regression, SVM, and decision tree models across feature sets.</em></small>
 
 ---
 
-[← Back to Data Science Projects](https://timondm0704.github.io/Data%20Science%20Projects/)
+[← Back to Data Science Projects]({{ "/Data%20Science%20Projects/" | relative_url }})
