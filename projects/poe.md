@@ -12,7 +12,7 @@ section: Genomic Research
     section { width: calc(100% - 230px); }
   }
 
-  /* Two columns: text (left, wider) + both figures (right, sticky) */
+  /* Two columns: text (left) + both figures (right, sticky) */
   .poe-layout {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
@@ -53,7 +53,7 @@ section: Genomic Research
 
   /* Small screens: stack text and figures normally */
   @media (max-width: 960px) {
-    . { display: block; }
+    .poe-layout { display: block; }
     .poe-figs { position: static; max-height: none; overflow: visible; }
     .poe-fig img { max-height: none; }
   }
@@ -61,7 +61,7 @@ section: Genomic Research
 
 [← Back to Genomic Research]({{ "/genomics/" | relative_url }})
 
-<div class="">
+<div class="poe-layout">
 
 <div class="poe-text" markdown="1">
 
