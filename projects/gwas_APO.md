@@ -4,14 +4,19 @@ title: "Pharmacogenetic GWAS of Bone Mineral Density"
 section: Genomic Research
 ---
 
+{% include sticky-figs.html %}
+
 [← Back to Genomic Research]({{ "/genomics/" | relative_url }})
+
+<div class="poe-layout">
+
+<div class="poe-text" markdown="1">
 
 ## Pharmacogenetic GWAS of Bone Mineral Density
 
-
 ### Skills Demonstrated
 
-*REGENIE · PLINK · Linkage Disequilibrium (LD) · LocusZoom Plot· Manhattan Plot · R · Bash · SLURM · High-Performance Computing (HPC)*
+*REGENIE · PLINK · Linkage Disequilibrium (LD) · LocusZoom Plot · Manhattan Plot · R · Bash · SLURM · High-Performance Computing (HPC)*
 
 ---
 
@@ -23,23 +28,31 @@ In this project, I built a GWAS pipeline on a high-performance computing cluster
 
 Preliminary results identified several genome-wide significant SNP × treatment interactions for hip, femoral neck, and ulna BMD, and for CTX, emerging at different time points during the trial. Notably, one of the strongest bone-resorption signals lies near a gene previously shown in experimental studies to suppress the formation of bone-resorbing cells, offering a plausible biological explanation for the CTX finding. Several other signals were also nominally associated with BMD in much larger external studies. These findings suggest that genetic variation may influence how individuals respond to bone-protective treatment, an important step toward precision medicine in osteoporosis prevention.
 
----
+</div>
 
-### Figures
+<div class="poe-figs">
+  <figure class="poe-fig">
+    <img src="{{ '/images/apo_workflow.png' | relative_url }}" alt="APO GWAS analysis workflow">
+    <figcaption>Figure 1. Pharmacogenetic GWAS workflow in the APO trial</figcaption>
+  </figure>
 
-![APO GWAS analysis workflow]({{ "/images/apo_workflow.png" | relative_url }})
-<br><small><em>Figure 1. Pharmacogenetic GWAS workflow in the APO trial</em></small>
+  <figure class="poe-fig">
+    <img src="{{ '/images/APO_interaction_circular.jpg' | relative_url }}" alt="APO GWAS circular Manhattan plot">
+    <figcaption>Figure 2. Circular Manhattan plot of genome-wide genotype by treatment interaction results for change in bone mineral density and the bone resorption marker CTX in the APO trial</figcaption>
+  </figure>
 
-![APO GWAS circular Manhattan plot]({{ "/images/APO_interaction_circular.jpg" | relative_url }})
-<br><small><em>Figure 2. Circular Manhattan plot of genome-wide genotype by treatment interaction results for change in bone mineral density and the bone resorption marker CTX in the APO trial</em></small>
+  <figure class="poe-fig">
+    <img src="{{ '/images/APO_Locuszoom.png' | relative_url }}" alt="LocusZoom plot of an interaction signal">
+    <figcaption>Figure 3. LocusZoom plot of a genome-wide significant genotype by treatment interaction signal and nearby genes</figcaption>
+  </figure>
 
-![LocusZoom plot of an interaction signal]({{ "/images/APO_Locuszoom.png" | relative_url }})
-<br><small><em>Figure 3. LocusZoom plot of a genome-wide significant genotype by treatment interaction signal and nearby genes</em></small>
+  <figure class="poe-fig">
+    <img src="{{ '/images/predicted_%change_CTX.png' | relative_url }}" alt="Predicted percent change in CTX by genotype and treatment">
+    <figcaption>Figure 4. Predicted percent change in CTX by genotype and treatment at a top interaction variant</figcaption>
+  </figure>
+</div>
 
-![Predicted percent change in CTX by genotype and treatment]({{ "/images/predicted_%change_CTX.png" | relative_url }})
-<br><small><em>Figure 4. Predicted percent change in CTX by genotype and treatment at a top interaction variant</em></small>
-
----
+</div>
 
 [← Back to Genomic Research]({{ "/genomics/" | relative_url }})
 
