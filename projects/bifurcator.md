@@ -4,10 +4,28 @@ title: "BifurcatoR: Detecting Variance Heterogeneity"
 section: Genomic Research
 ---
 
+{% include sticky-figs.html %}
+
+<style>
+  /* BifurcatoR page only: let the interactive report fill the figure panel */
+  .poe-fig iframe {
+    width: 100%;
+    height: calc(100vh - 5rem);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  @media (max-width: 960px) {
+    .poe-fig iframe { height: 80vh; }
+  }
+</style>
+
 [← Back to Genomic Research]({{ "/genomics/" | relative_url }})
 
-## BifurcatoR: Detecting Variance Heterogeneity
+<div class="poe-layout">
 
+<div class="poe-text" markdown="1">
+
+## BifurcatoR: Detecting Variance Heterogeneity
 
 ### Skills Demonstrated
 
@@ -25,15 +43,16 @@ My work focused on the simulation study evaluating how well statistical methods 
 
 When applied to real data, BifurcatoR found two hidden groups of patients among children with a common type of leukemia, based on EVI1 gene expression, and those with higher EVI1 expression had worse survival. Among identical twins, it revealed two distinct immune-related patterns in fat tissue, suggesting that obesity may come in different forms even among people with the same genes.
 
----
+</div>
 
-### Figures
+<div class="poe-figs">
+  <figure class="poe-fig">
+    <iframe src="https://rstudio-pubs-static.s3.amazonaws.com/1149896_41dda4119cf9454096514ad35d6945d2.html"
+            loading="lazy" title="BifurcatoR simulation study"></iframe>
+    <figcaption>Figure 1. Interactive visualization of the BifurcatoR simulation study. <a href="https://rpubs.com/mding_mhir/add_LNmixR" target="_blank">Open full report on RPubs ↗</a></figcaption>
+  </figure>
+</div>
 
-<iframe src="https://rstudio-pubs-static.s3.amazonaws.com/1149896_41dda4119cf9454096514ad35d6945d2.html"
-        width="100%" style="height: 90vh; border: 1px solid #ddd; border-radius: 8px;"
-        loading="lazy" title="BifurcatoR simulation study"></iframe>
-<br><small><em>Figure 1. Interactive visualization of the BifurcatoR simulation study. <a href="https://rpubs.com/mding_mhir/add_LNmixR" target="_blank">Open full report on RPubs ↗</a></em></small>
-
----
+</div>
 
 [← Back to Genomic Research]({{ "/genomics/" | relative_url }})
