@@ -5,15 +5,25 @@ section: Genomic Research
 ---
 
 <style>
-  /* Widen Minimal's wrapper and content column on this page only */
+  /* Use almost the full screen width on this page */
   @media (min-width: 961px) {
-    .wrapper { width: min(1500px, 96vw); }
-    section  { width: calc(100% - 300px); }
+    .wrapper { width: 98vw; max-width: none; }
+    header, footer { width: 200px; }
+    section { width: calc(100% - 230px); }
   }
+
+  /* OPTIONAL: hide the sidebar entirely on this page for presenting.
+     Remove the comment markers around this block to turn it on. */
+  /*
+  @media (min-width: 961px) {
+    header, footer { display: none; }
+    section { width: 100%; }
+  }
+  */
 
   .poe-layout {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr);
+    grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
     gap: 2rem;
     align-items: start;
   }
