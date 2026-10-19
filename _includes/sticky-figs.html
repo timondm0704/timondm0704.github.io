@@ -1,0 +1,63 @@
+<style>
+  /* Use almost the full screen width on this page */
+  @media (min-width: 961px) {
+    .wrapper { width: 98vw; max-width: none; }
+    header, footer { width: 200px; }
+    section { width: calc(100% - 230px); }
+  }
+
+  /* Two columns: text (left) + figures (right, sticky) */
+  .poe-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 2rem;
+    align-items: start;
+  }
+  .poe-text { min-width: 0; }
+
+  .poe-figs {
+    position: sticky;
+    top: 1rem;
+    max-height: calc(100vh - 2rem);
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .poe-fig { margin: 0; }
+  .poe-fig img {
+    width: 100%;
+    max-height: calc(50vh - 4.5rem);
+    object-fit: contain;
+    cursor: zoom-in;
+  }
+  .poe-fig figcaption { font-size: .8rem; font-style: italic; margin-top: .3rem; }
+
+  /* Click a figure to enlarge it full-screen; click or Esc to close */
+  .fig-zoom {
+    display: none; position: fixed; inset: 0; z-index: 1000;
+    background: rgba(0,0,0,.88); align-items: center; justify-content: center; cursor: zoom-out;
+  }
+  .fig-zoom.open { display: flex; }
+  .fig-zoom img { max-width: 96vw; max-height: 94vh; background: #fff; }
+
+  /* Small screens: stack text and figures normally */
+  @media (max-width: 960px) {
+    .poe-layout { display: block; }
+    .poe-figs { position: static; max-height: none; overflow: visible; }
+    .poe-fig img { max-height: none; }
+  }
+</style>
+
+<div class="fig-zoom" id="fig-zoom"><img alt=""></div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var zoom = document.getElementById('fig-zoom'), zimg = zoom.querySelector('img');
+  document.querySelectorAll('.poe-fig img').forEach(function (img) {
+    img.addEventListener('click', function () { zimg.src = img.src; zoom.classList.add('open'); });
+  });
+  zoom.addEventListener('click', function () { zoom.classList.remove('open'); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') zoom.classList.remove('open'); });
+});
+</script>
