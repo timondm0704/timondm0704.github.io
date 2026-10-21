@@ -26,7 +26,7 @@ I'm organized and comfortable managing several projects at once, and I enjoy ste
 
 **Bioinformatics & Genomics:** GWAS analysis, gene-by-treatment interaction, mQTL/vQTL/eQTL, parent-of-origin analysis, PLINK, REGENIE, LD pruning and clumping, GTEx, UCSC Genome Browser, genomic file processing (FASTA/FASTQ, BAM, VCF)<br>
 **Statistical Analysis:** regression models, hypothesis testing, permutation testing, bootstrap resampling, statistical simulation, mixture models, variance heterogeneity testing<br>
-**Programming Languages:** R (dplyr, tidyverse, ggplot2, R Markdown, Shiny), Python (Pandas, NumPy, Matplotlib, Scikit-learn), SQL, Java<br>
+**Programming Languages:** R (dplyr, tidyverse, ggplot2, R Markdown), Python (Pandas, NumPy, Matplotlib, Scikit-learn), SQL, Java<br>
 **Data Science & Machine Learning:** ETL data pipelines, big data analytics, PySpark, TensorFlow, PyTorch, neural networks, NLP<br>
 **Infrastructure & Tools:** Linux/Bash, high-performance computing (HPC/SLURM), Git/GitHub, Google Cloud Platform, JMP Pro
 
