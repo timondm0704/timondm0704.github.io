@@ -13,7 +13,7 @@ permalink: /bioinformatics-project/
 
 <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
 <script>
-  fetch("https://raw.githubusercontent.com/timondm0704/nextflow_wgs_variant_calling/main/README.md")
+  fetch("https://raw.githubusercontent.com/timondm0704/nextflow_wgs_variant_calling/main/README.md?t=" + Date.now(), { cache: "no-store" })
     .then(function (response) { return response.text(); })
     .then(function (markdown) {
       document.getElementById("readme").innerHTML = marked.parse(markdown);
