@@ -6,9 +6,15 @@ permalink: /bioinformatics-project/
 
 <style>
   /* Wider layout for this page only (desktop screens) */
-  @media (min-width: 961px) {
-    .wrapper { width: min(1400px, calc(100% - 40px)); }
-    section  { width: calc(100% - 320px); }
+  @media screen and (min-width: 961px) {
+    body div.wrapper {
+      width: 1400px !important;
+      max-width: calc(100% - 40px) !important;
+    }
+    body div.wrapper > section {
+      width: calc(100% - 320px) !important;
+      max-width: none !important;
+    }
   }
   /* Let wide tables and code blocks scroll instead of overflowing */
   #readme pre,
