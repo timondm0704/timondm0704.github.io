@@ -11,6 +11,8 @@ nav:
     url: "/"
   - title: "Genomic Research"
     url: "/genomics/"
+  - title: Bioinformatics Projects
+    url: /bioinformatics-project/
   - title: "Data Science Projects"
     url: "/Data Science Projects/"
  
