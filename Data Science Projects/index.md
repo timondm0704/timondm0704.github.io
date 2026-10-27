@@ -1,3 +1,10 @@
+
+---
+layout: default
+title: Data Science Projects
+section: Data Science Projects
+---
+
 ### Flight Delay Prediction: Is Bad Weather Really to Blame?
 
 *PySpark · Spark MLlib · Classification · Feature Selection · Cross-Validation*
