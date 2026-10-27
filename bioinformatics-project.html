@@ -8,7 +8,7 @@ permalink: /bioinformatics-project/
   /* Wider layout for this page only (desktop screens) */
   @media screen and (min-width: 961px) {
     body div.wrapper {
-      width: 1000px !important;
+      width: 1400px !important;
       max-width: calc(100% - 40px) !important;
     }
     body div.wrapper > section {
@@ -16,6 +16,31 @@ permalink: /bioinformatics-project/
       max-width: none !important;
     }
   }
+
+  /* Workflow chart stays visible while the text scrolls */
+  #workflow-figure {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background: #fff;
+    padding: 12px 0;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+  }
+  #workflow-figure img {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin: 0 auto;
+  }
+  #workflow-figure:empty { display: none; }
+
+  /* On small screens, show the chart normally (not sticky) */
+  @media screen and (max-width: 960px) {
+    #workflow-figure { position: static; border-bottom: none; }
+  }
+
   /* Let wide tables and code blocks scroll instead of overflowing */
   #readme pre,
   #readme table { display: block; overflow-x: auto; }
@@ -26,6 +51,7 @@ permalink: /bioinformatics-project/
   <a href="https://github.com/timondm0704/nextflow_wgs_variant_calling">github.com/timondm0704/nextflow_wgs_variant_calling</a>
 </p>
 
+<div id="workflow-figure"></div>
 <div id="readme">Loading project description…</div>
 
 <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
@@ -33,7 +59,18 @@ permalink: /bioinformatics-project/
   fetch("https://raw.githubusercontent.com/timondm0704/nextflow_wgs_variant_calling/main/README.md?t=" + Date.now(), { cache: "no-store" })
     .then(function (response) { return response.text(); })
     .then(function (markdown) {
-      document.getElementById("readme").innerHTML = marked.parse(markdown);
+      var readme = document.getElementById("readme");
+      readme.innerHTML = marked.parse(markdown);
+
+      // Move the first image (the workflow chart) into the sticky area
+      var img = readme.querySelector("img");
+      if (img) {
+        var holder = img.parentElement;
+        document.getElementById("workflow-figure").appendChild(img);
+        if (holder && holder.tagName === "P" && holder.textContent.trim() === "") {
+          holder.remove();
+        }
+      }
     })
     .catch(function () {
       document.getElementById("readme").innerHTML =
